@@ -19,7 +19,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://my-timetable.monash.edu/*"
+        "https://my-timetable.monash.edu/*",
+        "https://my-timetable.monash.edu/odd/*"
       ],
       "js": [
         "src/content_script.js",
@@ -27,7 +28,8 @@
       ],
       "css": [
         "src/header.css",
-        "src/semantic.min.css"
+        "src/semantic.min.css",
+        "src/custom.css"
       ],
       "run_at": "document_start"
     }

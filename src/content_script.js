@@ -2,13 +2,14 @@ var headerBar;
 
 function replaceHeader() {
     // check if element exists yet
-    headerBar = document.querySelector('body > div > .header');
+    headerBar = document.querySelector('#outer-container > div > div.top-bar');
+    var buttons = document.getElementsByClassName('btn btn-red');
+    buttons.classList.add('ui-buttons btndanger');
     if (headerBar) {
         // element exists, remove the event listeners so we don't run this twice
-        document.removeEventListener('DOMNodeInserted', replaceHeader);
-        document.removeEventListener('DOMContentLoaded', replaceHeader);
+        headerBar.styleList.add('')
 
-
+        
         headerBar.classList.remove('header-dark');
 
         // default to always removing the border
