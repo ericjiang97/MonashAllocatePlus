@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "MonashAllocatePlus",
+  "version": "1.5.1",
+  "description": "Making Allocate Plus look more modern",
+  "minimum_chrome_version": "26",
+  "page_action": {
+    "default_title": "Toggle light/dark header"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "src/background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://my-timetable.monash.edu/*"
+      ],
+      "js": [
+        "src/content_script.js",
+        "src/semantic.min.js"
+      ],
+      "css": [
+        "src/header.css",
+        "src/semantic.min.css"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

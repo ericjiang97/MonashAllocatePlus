@@ -1,0 +1,603 @@
+/*
+* Monash Getting Started Colours Scheme CSS
+* Licensed under MIT License
+* Copyright (C) 2016-2017 Monash University
+* Developed by the monPlan Team
+*/
+
+/* Header, Footers and Toolbar CSS Property*/
+.toolbars{
+    width: 100% !important;
+    left: 0;
+    background-color: #006cab !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+.toolbars.dark{
+    background-color: #006cab !important;
+    color: white !important;
+    border: 1px solid #006cab !important;
+    box-shadow: -1px 1px #006cab,
+    -2px 2px #006cab,
+    -3px 3px #006cab !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+    left: 0;
+}
+
+.missingPage {
+    min-height: 100%;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center !important;
+    background-color: rgba(52,52,52,0) !important;
+}
+
+.missingPage > * {
+    color: white !important
+}
+
+/* Modals */
+.ui.modal {
+    border-radius: 0px !important
+}
+
+.header-primary {
+    background-color: #006cab !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+.header-secondary {
+    background-color: #009fdb !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+.header-tertiary {
+    background-color: #003c5b !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+.header-danger {
+    background-color: #BF131A !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+/* Headers for Unit Info based off Faculties */
+.header.ada {
+    background-color: #393838 !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+.header.all {
+    background: #00C9FF;
+    background: -webkit-linear-gradient(to right, #00C9FF, #92F29D);
+    background: linear-gradient(to right, #00C9FF, #92F29D);
+    color: white !important;
+    border-radius: 0px !important
+}
+.header.arts {
+    background-color: #911C11 !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+.header.buseco {
+    background-color: #008194 !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+.header.edu {
+    background-color: #9E0039 !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+.header.eng {
+    background-color: #E98E05 !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+.header.fit {
+    background-color: #653579 !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+.header.law {
+    background-color: #968D81 !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+.header.med {
+    background-color: #2C7DAF !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+.header.pha {
+    background-color: #9AA71D !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+.header.sci {
+    background-color: #004c36 !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+/* Headers for course overview segments based off faculty colours */
+
+.ui.segment.moving {
+    border-top: 4px solid #006cab !important;
+    border-radius: 0px !important
+}
+
+.ui.segment.adding {
+    border-top: 4px solid #00BA5C !important;
+    border-radius: 0px !important
+}
+
+.ui.segment.default {
+    border-radius: 0px !important
+}
+
+.ui.segment.ada {
+    border-top: 4px solid #393838 !important;
+    border-radius: 0px !important
+}
+
+.ui.segment.all {
+    border-top: 4px solid #00C9FF !important;
+    border-radius: 0px !important
+}
+
+.ui.segment.arts {
+    border-top: 4px solid #911C11 !important;
+    border-radius: 0px !important
+}
+.ui.segment.buseco {
+    border-top: 4px solid #008194 !important;
+    border-radius: 0px !important
+}
+.ui.segment.edu {
+    border-top: 4px solid #9E0039 !important;
+    border-radius: 0px !important
+}
+.ui.segment.eng {
+    border-top: 4px solid #E98E05 !important;
+    border-radius: 0px !important
+}
+.ui.segment.fit {
+    border-top: 4px solid #653579 !important;
+    border-radius: 0px !important
+}
+.ui.segment.law {
+    border-top: 4px solid #968D81 !important;
+    border-radius: 0px !important
+}
+.ui.segment.med {
+    border-top: 4px solid #2C7DAF !important;
+    border-radius: 0px !important
+}
+.ui.segment.pha {
+    border-top: 4px solid #9AA71D !important;
+    border-radius: 0px !important
+}
+.ui.segment.sci {
+    border-top: 4px solid #004c36 !important;
+    border-radius: 0px !important
+}
+
+
+/* Quick Info Column on Unit Info */
+.quickInfo {
+    box-shadow: -1px -1px 0px 0px #D4D4D5 !important;
+    padding: 5px !important;
+    text-align: center !important;
+}
+.quickInfo > .ui.statistic{
+    margin: 0.25rem 0rem !important;
+}
+.quickInfo > .ui.divider{
+    margin: 0.25rem 0rem !important;
+}
+/* User Inputs, Search */
+.srch * {
+    border-radius: 0px !important
+}
+.srch:hover{
+    border-color: rgba(34,36,38, 0.35) !important
+}
+.srch.dark *{
+    background-color: #003c5b !important;
+    color: white !important;
+}
+.srch.main *{
+    background-color: #006cab !important;
+    color: white !important;
+}
+.srch.light *{
+    background-color: #009fdb !important;
+    color: white !important;
+}
+.drpdown {
+    border-radius: 0px !important
+}
+.drpdown * {
+    border-radius: 0px !important
+}
+
+/* Placeholder (Input, Search, etc. ) colours */
+::-webkit-input-placeholder {
+    color: #727272 !important;
+    opacity: 0.9 !important
+}
+:-moz-placeholder {
+    color: #727272 !important;
+    opacity: 0.9 !important
+}
+::-moz-placeholder {
+    color: #727272 !important;
+    opacity: 0.9 !important
+}
+::-ms-input-placeholder {
+    color: #727272 !important;
+    opacity: 0.9 !important
+}
+/* Animations */
+@-webkit-keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.notifications {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+/* Notifications */
+.notify {
+    width: 300px !important;
+    pointer-events: auto;
+}
+
+.ui.icon.message.notify {
+    transition: none;
+}
+
+.notify.slide-enter {
+    transform: scale(0.8, 0.8);
+    filter: blur(5px);
+    opacity: 0.01;
+    height: 0;
+}
+
+.notify.slide-enter.slide-enter-active {
+    height: auto;
+    transform: scale(1, 1);
+    filter: none;
+    opacity: 1;
+    transition: all 125ms cubic-bezier(.04, .88, .2, .83) !important;
+}
+
+.notify.info {
+    background-color: #3583B1 !important;
+    color: white !important;
+    border-radius: 0.5px #2D7097 !important
+}
+
+.notify.info * {
+    color: white !important;
+}
+
+.notify.info > .ui.divider {
+    border-top: 0.25px solid white !important;
+    border-bottom: 0.25px solid white !important;
+}
+
+.notify.negative {
+    background-color: #FFCBCE !important;
+    color: #FF323B !important;
+    border-radius: 0.5px #FF1923 !important
+}
+.notify.negative * {
+    color: #FF323B !important;
+}
+.notify.negative > .ui.divider {
+    border-top: 0.25px solid white !important;
+    border-bottom: 0.25px solid white !important;
+}
+
+/* Buttons */
+.btnmainblue {
+    background-color: #006cab !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+.btnmainblue:hover {
+    background-color: #004973 !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+.btnlightblue {
+    background-color: #009fdb !important;
+    color: white !important;
+    border-radius: 0px !important;
+    border-color: #009fdb !important
+}
+
+.btnlightblue * {
+    background-color: #009fdb !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+.btnlightblue:disabled {
+    background-color: #26677f !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+.btnlightblue:hover {
+    background-color: #007ba7 !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+.btnlightblue:hover * {
+    background-color: #007ba7 !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+.btndarkblue {
+    background-color: #003c5b !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+.btndarkblue:hover {
+    background-color: #004468 !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+.btnwhite {
+    background-color: #fff !important;
+    color: black !important;
+    border-radius: 0px !important
+}
+
+.btnwhite:hover {
+    background-color: #b0b0b0 !important;
+    color: black !important;
+    border-radius: 0px !important
+}
+
+.btnorange {
+    background-color: #FDB515 !important;
+    color: black !important;
+    border-radius: 0px !important
+}
+
+.btnorange:hover {
+    background-color: #fff !important;
+    color: black !important;
+    border-radius: 0px !important
+}
+
+.btnorange:disabled {
+    background-color: #fff !important;
+    color: #b0b0b0 !important;
+    border-radius: 0px !important
+}
+
+.btncancel {
+    background-color: #FF1923 !important;
+    color: white !important;
+    border-radius: 0px !important;
+    border-color: #FF1923 !important
+}
+
+.btncancel:hover {
+    background-color: #CC141C !important;
+    color: white !important;
+    border-radius: 0px !important;
+    border-color: #CC141C !important
+}
+
+.btnlightcancel {
+    background-color: #727272 !important;
+    color: white !important;
+    border-radius: 0px !important;
+    border-color: #727272 !important
+}
+
+.btnlightcancel:hover {
+    background-color: #595959 !important;
+    color: white !important;
+    border-radius: 0px !important;
+    border-color: #595959 !important
+}
+
+.btnempty{
+    background-color: #235974 !important;
+    color: #d5d5d5 !important;
+    border-radius: 0px !important
+}
+
+.btnempty:hover{
+    background-color: #54798b !important;
+    color: #ffffff !important;
+    border-radius: 0px !important
+}
+
+.ui.buttons .or:before {
+    background-color: rgb(0, 60, 91)!important;
+    color: white!important
+}
+
+/*
+* Course Stats
+
+.statsGroupRow {
+    padding: 10px !important;
+    margin-right: -0.5rem !important;
+}
+.statsGroupRow > .eight.wide.column > .ui.tiny.statistic > * {
+    color: #003c5b !important;
+}
+*/
+
+
+/*
+* Course Structure CSS Styling for Table and other Components
+*/
+.ui.table{
+    background-color: transparent
+}
+
+.coursetable {
+    border-radius: 0px !important;
+    border-color: transparent !important;
+    color: transparent !important
+}
+
+.coursetable * {
+    border-radius: 0px !important;
+}
+
+/* Table Header */
+@media screen {
+    .coursetable > thead > tr > th {
+        border-color: #006cab !important;
+        border-style: solid;
+        border-width: 0.1em;
+        background-color: #006cab !important;
+        color: white !important
+    }
+}
+
+@media print {
+    .coursetable > thead > tr > th {
+        border: 0.1em solid #006cab !important
+    }
+
+    .coursetable > thead > tr > th > * {
+        border: none !important
+    }
+}
+
+.unitControl {
+    position: relative !important;
+    top: 50% !important;
+    transform: translateY(50%) !important
+}
+
+.unitControl > * {
+    position: relative !important;
+    top: 50% !important;
+    transform: translateY(-25%) !important
+}
+
+/* Course Body Table */
+.coursetable > tbody > tr:nth-child(odd)  {
+    border-color: #f2f2f2  !important;
+    background-color: #f2f2f2 !important;
+    color: black !important
+}
+
+.coursetable > tbody > tr:nth-child(even)  {
+    border-color: white !important;
+    background-color: white !important;
+    color: black !important
+}
+
+.ui.celled.table tr td {
+    padding: 7.5px !important;
+    border: none !important;
+    border-right: 0.08em solid #d5d5d5 !important;
+    border-bottom: 0.08em solid #d5d5d5 !important;
+}
+
+.ui.celled.table tr td:first-child {
+    border-left: 0.08em solid #d5d5d5 !important;
+}
+
+.coursetable > tbody > tr > .unit.error {
+    background-color: #FFCBCE !important;
+}
+
+/* No Teaching Periods */
+.noteachingperiods > *  > h3 > * {
+    color: black !important
+}
+
+.noteachingperiods > *  > h3 {
+    color: black !important
+}
+
+/* User Actions (table) */
+.hoverCell {
+    background-color: rgba(0,84,133,0.7) !important;
+}
+
+
+.ui.table td.active{
+    background-color: #e7e7e7 !important;
+}
+
+/*  Units */
+.placeholder {
+    background-color: transparent !important;
+    border-style: dashed !important;
+    border-color: #ccc !important;
+    box-shadow: none !important;
+    color: #888 !important
+}
+
+.warningicon { /*Warning Icon in Units*/
+    color: #F2711C !important;
+}
+
+/**
+* UI Messages
+*/
+.ui.message {
+    border-radius: 0px !important
+}
+
+/* Course Status */
+.status {
+    border-bottom: 0.4em solid #47C0BC !important;
+    transition: all 0.2s ease !important
+}
+
+.status.error {
+    border-bottom: 0.4em solid #FF1923 !important;
+    transition: all 0.2s ease !important
+}
+
+.status.error > div > i {
+    color: #FF1923 !important
+}
