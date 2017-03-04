@@ -1,6 +1,8 @@
 # MonashAllocatePlus
 A Chrome Extension used to make Allocate Plus look more modern and similar to other Monash Web Apps
 
+![http://i.imgur.com/WCEqx3S.png](http://i.imgur.com/WCEqx3S.png)
+
 # LICENSE
 Allocate+ is a software for timetabling made by Allocate+ http://www.allocateplus.com.au/index.html
 This Chrome Extension is not created by Allocate+ and is not endorsed by Monash University
