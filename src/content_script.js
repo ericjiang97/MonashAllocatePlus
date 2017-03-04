@@ -3,6 +3,12 @@ var headerBar;
 function replaceHeader() {
     // check if element exists yet
     headerBar = document.querySelector('#outer-container > div > div.top-bar');
+    
+    timetablesHome = document.querySelector("#outer-header > header > div.mon-link-block > div > a");
+    timetablesHome.classList.add("ui");
+    timetablesHome.classList.add("button");
+    timetablesHome.classList.add("btnmainblue")
+    /*
     var buttons = document.getElementsByClassName('btn btn-red');
     buttons.classList.add('ui-buttons btndanger');
     if (headerBar) {
@@ -25,11 +31,11 @@ function replaceHeader() {
         // send a message to the background script to enable the page action
         chrome.runtime.sendMessage('enable_page_action', function () {});
     }
+    */
 }
 
 // event listeners
-document.addEventListener('DOMNodeInserted', replaceHeader);
-document.addEventListener('DOMContentLoaded', replaceHeader);
+document.addEventListener("DOMContentLoaded", replaceHeader);
 
 // listen for messages from the background script to toggle
 chrome.runtime.onMessage.addListener(function (message, sender, callback) {

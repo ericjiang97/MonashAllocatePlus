@@ -327,8 +327,20 @@
 }
 
 /* Buttons */
+.mon-link-block a {
+    background-color: #006cab !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
 .btnmainblue {
     background-color: #006cab !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
+.mon-link-block a {
+    background-color: #004973 !important;
     color: white !important;
     border-radius: 0px !important
 }
