@@ -4,7 +4,7 @@ function replaceContent() {
     
     timetablesHome = document.querySelector("#outer-header > header > div.mon-link-block > div > a");
     timetablesHome.classList.add("ui");
-    timetablesHome.classList.add("button");
+    timetablesHome.classList.add("btn");
     timetablesHome.classList.add("btnmainblue");
 
 
