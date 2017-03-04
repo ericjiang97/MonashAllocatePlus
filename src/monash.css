@@ -436,14 +436,14 @@
     border-radius: 0px !important
 }
 
-.btncancel {
+.btncancel, .btn.btn-red {
     background-color: #FF1923 !important;
     color: white !important;
     border-radius: 0px !important;
     border-color: #FF1923 !important
 }
 
-.btncancel:hover {
+.btncancel:hover, .btn.btn-red {
     background-color: #CC141C !important;
     color: white !important;
     border-radius: 0px !important;

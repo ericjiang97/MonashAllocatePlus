@@ -9,3 +9,10 @@
 .mon-link-block {
     background-color: white !important;
 }
+
+.upper_sec {
+    background-color: #006cab !important;
+    border-radius: 0px !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
