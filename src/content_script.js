@@ -9,8 +9,7 @@ function replaceContent() {
     timetablesHome.classList.add("button");
     timetablesHome.classList.add("btnmainblue");
     
-    helpmeButton = document.querySelector("body > div.SkipThisFixedPosition.walkme-custom-icon-outer-div.walkme-launcher-id-37098.walkme-custom-launcher-outer-div.walkme-text-launcher.custom-launcher-26825.walkme-icon-root-Launcher-37098.walkme-not-embed > div");
-    console.log(allocatedStatus);   
+    helpmeButton = document.querySelector("body > div.SkipThisFixedPosition.walkme-custom-icon-outer-div.walkme-launcher-id-37098.walkme-custom-launcher-outer-div.walkme-text-launcher.custom-launcher-26825.walkme-icon-root-Launcher-37098.walkme-not-embed > div");  
     helpmeButton.classList.add("ui");
     helpmeButton.classList.add("button");
     helpmeButton.classList.add("btnlightblue");

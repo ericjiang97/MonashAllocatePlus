@@ -1,3 +1,7 @@
 #outer-header, #outer-footer, .aplus-container {
     max-width: 75% !important;
 }
+
+.action {
+    padding: 1.5em 1.5em 1.5em 1.5em !important;
+}
