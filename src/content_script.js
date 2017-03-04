@@ -1,41 +1,23 @@
 var headerBar;
 
-function replaceHeader() {
+function replaceContent() {
     // check if element exists yet
     headerBar = document.querySelector('#outer-container > div > div.top-bar');
     
     timetablesHome = document.querySelector("#outer-header > header > div.mon-link-block > div > a");
     timetablesHome.classList.add("ui");
     timetablesHome.classList.add("button");
-    timetablesHome.classList.add("btnmainblue")
-    /*
-    var buttons = document.getElementsByClassName('btn btn-red');
-    buttons.classList.add('ui-buttons btndanger');
-    if (headerBar) {
-        // element exists, remove the event listeners so we don't run this twice
-        headerBar.styleList.add('')
-
-        
-        headerBar.classList.remove('header-dark');
-
-        // default to always removing the border
-        headerBar.classList.add('great-header');
-
-        // check storage if we want it back
-        chrome.storage.sync.get(['enabled'], function (results) {
-            if (results.enabled || results.enabled === undefined) {
-                 headerBar.classList.add('great-header');
-            }
-        });
-
-        // send a message to the background script to enable the page action
-        chrome.runtime.sendMessage('enable_page_action', function () {});
-    }
-    */
+    timetablesHome.classList.add("btnmainblue");
+    
+    helpmeButton = document.querySelector("body > div.SkipThisFixedPosition.walkme-custom-icon-outer-div.walkme-launcher-id-37098.walkme-custom-launcher-outer-div.walkme-text-launcher.custom-launcher-26825.walkme-icon-root-Launcher-37098.walkme-not-embed > div");
+    console.log(allocatedStatus);   
+    helpmeButton.classList.add("ui");
+    helpmeButton.classList.add("button");
+    helpmeButton.classList.add("btnlightblue");
 }
 
 // event listeners
-document.addEventListener("DOMContentLoaded", replaceHeader);
+document.addEventListener("DOMContentLoaded", replaceContent);
 
 // listen for messages from the background script to toggle
 chrome.runtime.onMessage.addListener(function (message, sender, callback) {
