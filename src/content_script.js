@@ -11,6 +11,9 @@ function replaceContent() {
     // check if element exists yet
     headerBar = document.querySelector('#outer-header > header > div.mon-brand-header > div.wrapper');
     headerBar.appendChild(timetablesHome)
+
+    btnRed = document.querySelector("btn btn-red");
+    console.log(btnRed)
     
 }
 
