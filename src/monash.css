@@ -44,6 +44,18 @@
     border-radius: 0px !important
 }
 
+
+.top-bar {
+    background-color: #006cab !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+.top-bar * :hover{
+    background-color: #004973 !important;
+    color: white !important;
+    border-radius: 0px !important
+}
+
 .header-primary {
     background-color: #006cab !important;
     color: white !important;

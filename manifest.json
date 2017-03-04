@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "MonashAllocatePlus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Making Allocate Plus look more modern",
   "minimum_chrome_version": "26",
   "page_action": {
